@@ -25,13 +25,13 @@ class Program
         side3 = Convert.ToInt32(Console.ReadLine());
 
         if (side1 > 0 && side2 > 0 && side3 > 0)
-          if (side1 == side2 && side2 == side3)
-             Console.Write("Your triangle is an equilateral triangle.");
-          else if (side1 == side2 || side2 == side3 || side1 == side3)
-             Console.Write("Your triangle is an isosceles triangle.");
-          else
-          Console.Write("Your triangle is an isosceles triangle.");
+            if (side1 == side2 && side2 == side3)
+                Console.Write("Your triangle is an equilateral triangle.");
+            else if (side1 == side2 || side2 == side3 || side1 == side3)
+                Console.Write("Your triangle is an isosceles triangle.");
+            else
+                Console.Write("Your triangle is an isosceles triangle.");
         else
-           Console.Write("You cannot input negative numbers!");
+            Console.Write("You cannot input negative numbers!");
     }
 }
